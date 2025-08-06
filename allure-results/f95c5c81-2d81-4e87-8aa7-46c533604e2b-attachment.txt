@@ -1,0 +1,121 @@
+Location DB result: [
+  {
+    location_key: 155,
+    location_id: 'LOC247_5',
+    location_type: 'residential',
+    org_key: 1,
+    created_by: 'sdr_process',
+    created_on: 2025-07-24T04:45:25.001Z,
+    updated_on: 2025-07-24T04:45:25.001Z,
+    updated_by: null
+  }
+]
+Device DB result: [
+  {
+    device_key: 150,
+    device_id: 'DEV247_5',
+    device_type: 'electric',
+    org_key: 1,
+    created_by: 'sdr_process',
+    created_on: 2025-07-24T04:45:34.189Z,
+    updated_on: 2025-07-24T04:45:34.189Z,
+    updated_by: null,
+    device_tz: 'UTC'
+  }
+]
+✅ Relation created: RDL247_5 [
+  {
+    relation_key: 135,
+    device_location_id: 'RDL247_5',
+    location_key: 155,
+    device_key: 150,
+    device_id: 'DEV247_5',
+    location_id: 'LOC247_5',
+    start_date: 2025-07-01T00:00:00.000Z,
+    end_date: 2099-12-31T00:00:00.000Z,
+    source_time: null,
+    is_active: true,
+    created_by: 'dse_user',
+    created_on: 2025-07-23T06:58:14.276Z,
+    updated_on: 2025-07-24T04:45:43.623Z,
+    updated_by: null
+  }
+]
+✅ Device channels found: DEV247_5 [
+  {
+    relation_key: 478,
+    device_channel_id: 'DEV247_5-kVArh-Received-5',
+    device_channel_type: 'physical',
+    device_key: 150,
+    channel_key: 6,
+    device_id: 'DEV247_5',
+    channel_id: 'kVArh-Received-5',
+    start_date: 2025-07-01T00:00:00.000Z,
+    end_date: 2099-12-31T00:00:00.000Z,
+    source_time: null,
+    is_active: true,
+    org_key: null,
+    created_by: 'dse_user',
+    created_on: 2025-07-23T06:58:14.276Z,
+    updated_on: 2025-07-24T04:45:48.432Z,
+    updated_by: null
+  },
+  {
+    relation_key: 479,
+    device_channel_id: 'DEV247_5-kVArh-Delivered-5',
+    device_channel_type: 'physical',
+    device_key: 150,
+    channel_key: 1,
+    device_id: 'DEV247_5',
+    channel_id: 'kVArh-Delivered-5',
+    start_date: 2025-07-01T00:00:00.000Z,
+    end_date: 2099-12-31T00:00:00.000Z,
+    source_time: null,
+    is_active: true,
+    org_key: null,
+    created_by: 'dse_user',
+    created_on: 2025-07-23T06:58:14.276Z,
+    updated_on: 2025-07-24T04:45:48.432Z,
+    updated_by: null
+  },
+  {
+    relation_key: 480,
+    device_channel_id: 'DEV247_5-kWh-Received-5',
+    device_channel_type: 'physical',
+    device_key: 150,
+    channel_key: 16,
+    device_id: 'DEV247_5',
+    channel_id: 'kWh-Received-5',
+    start_date: 2025-07-01T00:00:00.000Z,
+    end_date: 2099-12-31T00:00:00.000Z,
+    source_time: null,
+    is_active: true,
+    org_key: null,
+    created_by: 'dse_user',
+    created_on: 2025-07-23T06:58:14.276Z,
+    updated_on: 2025-07-24T04:45:48.432Z,
+    updated_by: null
+  },
+  {
+    relation_key: 481,
+    device_channel_id: 'DEV247_5-kWh-Delivered-5',
+    device_channel_type: 'physical',
+    device_key: 150,
+    channel_key: 11,
+    device_id: 'DEV247_5',
+    channel_id: 'kWh-Delivered-5',
+    start_date: 2025-07-01T00:00:00.000Z,
+    end_date: 2099-12-31T00:00:00.000Z,
+    source_time: null,
+    is_active: true,
+    org_key: null,
+    created_by: 'dse_user',
+    created_on: 2025-07-23T06:58:14.276Z,
+    updated_on: 2025-07-24T04:45:48.432Z,
+    updated_by: null
+  }
+]
+🔁 Searching for device: LOC247_5
+ No search result page. Proceeding...
+Found location detail span: Location Details : LOC247_5
+✔ Completed Set 5: LOC247_5

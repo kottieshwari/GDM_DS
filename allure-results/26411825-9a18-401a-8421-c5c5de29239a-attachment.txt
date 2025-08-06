@@ -1,0 +1,25 @@
+Location DB result: [
+  {
+    location_key: 142,
+    location_id: 'LOC2207_1',
+    location_type: 'residential',
+    org_key: 1,
+    created_by: 'sdr_process',
+    created_on: 2025-07-22T05:11:17.927Z,
+    updated_on: 2025-07-22T05:11:17.927Z,
+    updated_by: null
+  }
+]
+Device DB result: [
+  {
+    device_key: 140,
+    device_id: 'DEV2207_1',
+    device_type: 'electric',
+    org_key: 1,
+    created_by: 'sdr_process',
+    created_on: 2025-07-22T05:11:17.927Z,
+    updated_on: 2025-07-22T05:11:17.927Z,
+    updated_by: null,
+    device_tz: 'UTC'
+  }
+]

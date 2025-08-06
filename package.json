@@ -1,0 +1,24 @@
+{
+  "name": "gdm_ds",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "test": "npx playwright test",
+  "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+  "test:allure": "npm run test && npm run allure:report"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.12",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.3.2",
+    "dotenv": "^17.1.0",
+    "pg": "^8.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

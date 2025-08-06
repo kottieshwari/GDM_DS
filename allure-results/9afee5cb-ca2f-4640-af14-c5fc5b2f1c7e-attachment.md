@@ -1,0 +1,122 @@
+# Page snapshot
+
+```yaml
+- link "Grid Data Simulator":
+  - /url: "#/"
+- button ""
+- text: "Current Environment: GDS Omnistrate - QA"
+- button ""
+- list:
+  - listitem:
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - text:  CIS Simulator 
+        - list:
+          - listitem:
+            - link " Master Data":
+              - /url: "#/cis-simulator/master-data"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/cis-simulator/com-con-transactions"
+      - listitem:
+        - text:  HES Simulator 
+        - list:
+          - listitem:
+            - link " Reads":
+              - /url: "#/hes-simulator/reads"
+          - listitem:
+            - link " Events":
+              - /url: "#/hes-simulator/events"
+          - listitem:
+            - link " Reads Events Transactions":
+              - /url: "#/hes-simulator/reads-events-transactions"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/hes-simulator/com-con-transactions"
+          - listitem:
+            - link " Profile Management":
+              - /url: "#/hes-simulator/reads-profile-mgmt"
+      - listitem:
+        - text:  Configuration 
+        - list:
+          - listitem:
+            - link " HES Simulator Configuration":
+              - /url: "#/configuration/hes-simulator"
+          - listitem:
+            - link " CIS Simulator Configuration":
+              - /url: "#/configuration/cis-simulator"
+          - listitem:
+            - link " System Configuration":
+              - /url: "#/configuration/system"
+- toolbar:
+  - button "Generate Reads"
+  - button "Import JSON Reads"
+  - button "Bulk Generate Reads"
+- toolbar:
+  - alert
+  - text: Import Bulk Transactions
+  - button "Export Example File"
+  - button "Process Bulk Transactions"
+  - button "Delete" [disabled]
+- table:
+  - rowgroup:
+    - row "All items unselected Bulk Transaction Id Ami Meter Number Start Date End Date Use Profile Absolute Total Usage Profile Name Profile Group Start Read Interval Channel Format Register Channel Source Apply Random Factor":
+      - cell "All items unselected":
+        - checkbox "All items unselected" [disabled]
+      - columnheader "Bulk Transaction Id":
+        - text: Bulk Transaction Id
+        - img
+      - columnheader "Ami Meter Number":
+        - text: Ami Meter Number
+        - img
+      - columnheader "Start Date":
+        - text: Start Date
+        - img
+      - columnheader "End Date":
+        - text: End Date
+        - img
+      - columnheader "Use Profile Absolute":
+        - text: Use Profile Absolute
+        - img
+      - columnheader "Total Usage":
+        - text: Total Usage
+        - img
+      - columnheader "Profile Name":
+        - text: Profile Name
+        - img
+      - columnheader "Profile Group":
+        - text: Profile Group
+        - img
+      - columnheader "Start Read":
+        - text: Start Read
+        - img
+      - columnheader "Interval Channel":
+        - text: Interval Channel
+        - img
+      - columnheader "Format":
+        - text: Format
+        - img
+      - columnheader "Register Channel":
+        - text: Register Channel
+        - img
+      - columnheader "Source":
+        - text: Source
+        - img
+      - columnheader "Apply Random Factor":
+        - text: Apply Random Factor
+        - img
+  - rowgroup:
+    - row "No Bulk Transactions found":
+      - cell "No Bulk Transactions found"
+- button ""
+- text: Showing 0 to 0 of 0 entries
+- button "First Page" [disabled]
+- button "Previous Page" [disabled]
+- button "Next Page" [disabled]
+- button "Last Page" [disabled]
+- text: 2023, PeriNimble LLC
+- img
+```

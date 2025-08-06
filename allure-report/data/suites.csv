@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","75073","Set 3: Create Location, Device, and Relationships","chromium","Thu Jul 24 10:14:54 IST 2025","passed","Thu Jul 24 10:16:09 IST 2025","Parallel Location-Device Creation & Verification","endtoend.spec.ts","",""
+"","78718","Set 4: Create Location, Device, and Relationships","chromium","Thu Jul 24 10:14:54 IST 2025","passed","Thu Jul 24 10:16:12 IST 2025","Parallel Location-Device Creation & Verification","endtoend.spec.ts","",""
+"","82898","Set 1: Create Location, Device, and Relationships","chromium","Thu Jul 24 10:14:54 IST 2025","passed","Thu Jul 24 10:16:17 IST 2025","Parallel Location-Device Creation & Verification","endtoend.spec.ts","",""
+"","75832","Set 5: Create Location, Device, and Relationships","chromium","Thu Jul 24 10:14:54 IST 2025","passed","Thu Jul 24 10:16:10 IST 2025","Parallel Location-Device Creation & Verification","endtoend.spec.ts","",""
+"","74837","Set 2: Create Location, Device, and Relationships","chromium","Thu Jul 24 10:14:54 IST 2025","passed","Thu Jul 24 10:16:09 IST 2025","Parallel Location-Device Creation & Verification","endtoend.spec.ts","",""
+"","23058","Check allure run","chromium","Mon Jul 21 09:39:54 IST 2025","passed","Mon Jul 21 09:40:17 IST 2025","","endtoend.spec.ts","",""

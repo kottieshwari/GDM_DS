@@ -1,0 +1,29 @@
+Location DB result: [
+  {
+    location_key: 144,
+    location_id: 'LOC2207_3',
+    location_type: 'residential',
+    org_key: 1,
+    created_by: 'sdr_process',
+    created_on: 2025-07-22T08:06:43.328Z,
+    updated_on: 2025-07-22T08:06:43.328Z,
+    updated_by: null
+  }
+]
+Device DB result: [
+  {
+    device_key: 142,
+    device_id: 'DEV2207_3',
+    device_type: 'electric',
+    org_key: 1,
+    created_by: 'sdr_process',
+    created_on: 2025-07-22T08:06:43.328Z,
+    updated_on: 2025-07-22T08:06:43.328Z,
+    updated_by: null,
+    device_tz: 'UTC'
+  }
+]
+🔁 Searching for device: LOC2207_3
+ No search result page. Proceeding...
+Found location detail span: Location Details : LOC2207_3
+✔ Completed Set 1: LOC2207_3

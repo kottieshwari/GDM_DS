@@ -1,0 +1,258 @@
+# Page snapshot
+
+```yaml
+- link "Grid Data Simulator":
+  - /url: "#/"
+- button ""
+- text: "Current Environment: GDS Omnistrate - QA"
+- button ""
+- list:
+  - listitem:
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - text:  CIS Simulator 
+        - list:
+          - listitem:
+            - link " Master Data":
+              - /url: "#/cis-simulator/master-data"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/cis-simulator/com-con-transactions"
+      - listitem:
+        - text:  HES Simulator 
+        - list:
+          - listitem:
+            - link " Reads":
+              - /url: "#/hes-simulator/reads"
+          - listitem:
+            - link " Events":
+              - /url: "#/hes-simulator/events"
+          - listitem:
+            - link " Reads Events Transactions":
+              - /url: "#/hes-simulator/reads-events-transactions"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/hes-simulator/com-con-transactions"
+          - listitem:
+            - link " Profile Management":
+              - /url: "#/hes-simulator/reads-profile-mgmt"
+      - listitem:
+        - text:  Configuration 
+        - list:
+          - listitem:
+            - link " HES Simulator Configuration":
+              - /url: "#/configuration/hes-simulator"
+          - listitem:
+            - link " CIS Simulator Configuration":
+              - /url: "#/configuration/cis-simulator"
+          - listitem:
+            - link " System Configuration":
+              - /url: "#/configuration/system"
+- tablist:
+  - tab "Premise"
+  - tab "Contract"
+  - tab "Partner"
+  - tab "Location" [selected]
+  - tab "Device"
+  - tab "Account"
+  - tab "Customer"
+  - tab "Register"
+  - tab "Relationship"
+  - tab "Bulk MD"
+- tabpanel "Location":
+  - button "New"
+  - text: 
+  - textbox "Search"
+  - table:
+    - rowgroup:
+      - row "All items unselected ID Org Type Is Active Start Date End Date":
+        - cell "All items unselected":
+          - checkbox "All items unselected"
+        - columnheader "ID":
+          - text: ID
+          - img
+        - columnheader "Org":
+          - text: Org
+          - img
+        - columnheader "Type":
+          - text: Type
+          - img
+        - columnheader "Is Active":
+          - text: Is Active
+          - img
+        - columnheader "Start Date":
+          - text: Start Date
+          - img
+        - columnheader "End Date":
+          - text: End Date
+          - img
+        - cell
+    - rowgroup:
+      - row "Nik_test_1 ORG residential true 2025-05-08T12:20:34":
+        - cell:
+          - checkbox
+        - cell "Nik_test_1"
+        - cell "ORG"
+        - cell "residential"
+        - cell "true"
+        - cell "2025-05-08T12:20:34"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "LOC_DE_001 US Energy Co. residential true 2025-05-01T10:20:30":
+        - cell:
+          - checkbox
+        - cell "LOC_DE_001"
+        - cell "US Energy Co."
+        - cell "residential"
+        - cell "true"
+        - cell "2025-05-01T10:20:30"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "LOC_1601 US Energy Co. residential true 2025-05-01T12:47:05":
+        - cell:
+          - checkbox
+        - cell "LOC_1601"
+        - cell "US Energy Co."
+        - cell "residential"
+        - cell "true"
+        - cell "2025-05-01T12:47:05"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "LOC_1602 US Energy Co. residential true 2025-05-01T12:55:21":
+        - cell:
+          - checkbox
+        - cell "LOC_1602"
+        - cell "US Energy Co."
+        - cell "residential"
+        - cell "true"
+        - cell "2025-05-01T12:55:21"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "LOC_2201 US Energy Co. residential true 2025-05-01T15:36:52":
+        - cell:
+          - checkbox
+        - cell "LOC_2201"
+        - cell "US Energy Co."
+        - cell "residential"
+        - cell "true"
+        - cell "2025-05-01T15:36:52"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "LOC_22501 US Energy Co. residential true 2025-05-01T16:54:57":
+        - cell:
+          - checkbox
+        - cell "LOC_22501"
+        - cell "US Energy Co."
+        - cell "residential"
+        - cell "true"
+        - cell "2025-05-01T16:54:57"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "LOC_22502 US Energy Co. residential true 2025-05-01T17:09:55":
+        - cell:
+          - checkbox
+        - cell "LOC_22502"
+        - cell "US Energy Co."
+        - cell "residential"
+        - cell "true"
+        - cell "2025-05-01T17:09:55"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "LOC265_001 US Energy Co. residential true 2025-05-01T15:48:58":
+        - cell:
+          - checkbox
+        - cell "LOC265_001"
+        - cell "US Energy Co."
+        - cell "residential"
+        - cell "true"
+        - cell "2025-05-01T15:48:58"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "LOC265_02 US Energy Co. residential true 2025-05-01T15:55:52":
+        - cell:
+          - checkbox
+        - cell "LOC265_02"
+        - cell "US Energy Co."
+        - cell "residential"
+        - cell "true"
+        - cell "2025-05-01T15:55:52"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "NL_0906_01 residential true 2025-06-01T15:10:33":
+        - cell:
+          - checkbox
+        - cell "NL_0906_01"
+        - cell
+        - cell "residential"
+        - cell "true"
+        - cell "2025-06-01T15:10:33"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+  - text: Showing 1 to 10 of 163 entries
+  - button "First Page" [disabled]
+  - button "Previous Page" [disabled]
+  - button "1"
+  - button "2"
+  - button "3"
+  - button "4"
+  - button "5"
+  - button "Next Page"
+  - button "Last Page"
+  - dialog "Location Details":
+    - text: Location Details
+    - button
+    - textbox "Entity ID Entity Organization Entity TimeZone Is Active Start Date End Date Location Type"
+    - text: Entity ID
+    - textbox
+    - text: Entity Organization
+    - combobox "Entity TimeZone"
+    - button "dropdown trigger"
+    - text: Entity TimeZone
+    - combobox "True"
+    - button "dropdown trigger"
+    - text: Is Active
+    - combobox: 07/25/2025 15:29
+    - text: Start Date
+    - combobox
+    - text: End Date
+    - combobox "Commercial"
+    - button "dropdown trigger"
+    - text: Location Type
+    - button "Cancel"
+    - button "Save"
+- text: 2023, PeriNimble LLC
+- img
+```

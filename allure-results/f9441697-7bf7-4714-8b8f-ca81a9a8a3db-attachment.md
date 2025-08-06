@@ -1,0 +1,141 @@
+# Page snapshot
+
+```yaml
+- link "Grid Data Simulator":
+  - /url: "#/"
+- button ""
+- text: "Current Environment: GDS Omnistrate - QA"
+- button ""
+- list:
+  - listitem:
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - text:  CIS Simulator 
+        - list:
+          - listitem:
+            - link " Master Data":
+              - /url: "#/cis-simulator/master-data"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/cis-simulator/com-con-transactions"
+      - listitem:
+        - text:  HES Simulator 
+        - list:
+          - listitem:
+            - link " Reads":
+              - /url: "#/hes-simulator/reads"
+          - listitem:
+            - link " Events":
+              - /url: "#/hes-simulator/events"
+          - listitem:
+            - link " Reads Events Transactions":
+              - /url: "#/hes-simulator/reads-events-transactions"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/hes-simulator/com-con-transactions"
+          - listitem:
+            - link " Profile Management":
+              - /url: "#/hes-simulator/reads-profile-mgmt"
+      - listitem:
+        - text:  Configuration 
+        - list:
+          - listitem:
+            - link " HES Simulator Configuration":
+              - /url: "#/configuration/hes-simulator"
+          - listitem:
+            - link " CIS Simulator Configuration":
+              - /url: "#/configuration/cis-simulator"
+          - listitem:
+            - link " System Configuration":
+              - /url: "#/configuration/system"
+- tablist:
+  - tab "Premise"
+  - tab "Contract"
+  - tab "Partner"
+  - tab "Location"
+  - tab "Device"
+  - tab "Account"
+  - tab "Customer"
+  - tab "Register"
+  - tab "Relationship" [selected]
+  - tab "Bulk MD"
+- tabpanel "Relationship":
+  - button "New"
+  - text: 
+  - textbox "Search"
+  - table:
+    - rowgroup:
+      - row "ID Category Category Organization Primary Entity Primary Entity Secondary Entity Primary Entity Start Date End Date":
+        - columnheader "ID":
+          - text: ID
+          - img
+        - columnheader "Category":
+          - text: Category
+          - img
+        - columnheader "Category":
+          - text: Category
+          - img
+        - columnheader "Organization":
+          - text: Organization
+          - img
+        - columnheader "Primary Entity":
+          - text: Primary Entity
+          - img
+        - columnheader "Primary Entity":
+          - text: Primary Entity
+          - img
+        - columnheader "Secondary Entity":
+          - text: Secondary Entity
+          - img
+        - columnheader "Primary Entity":
+          - text: Primary Entity
+          - img
+        - columnheader "Start Date":
+          - text: Start Date
+          - img
+        - columnheader "End Date":
+          - text: End Date
+          - img
+        - cell
+    - rowgroup:
+      - row "No relationships found":
+        - cell "No relationships found"
+  - text: Showing 0 to 0 of 0 entries
+  - button "First Page" [disabled]
+  - button "Previous Page" [disabled]
+  - button "Next Page" [disabled]
+  - button "Last Page" [disabled]
+  - dialog "Relationship Details":
+    - text: Relationship Details
+    - button
+    - combobox "Device -> Location"
+    - button "dropdown trigger"
+    - text: Relationship Category
+    - textbox "Relationship ID": RDL2107_3
+    - text: Relationship ID
+    - textbox "Organization ID": US Energy Co.
+    - text: Organization ID
+    - textbox "device ID": DEV2107_3
+    - text: device ID
+    - textbox "location ID": LOC2107_3
+    - text: location ID
+    - combobox "Status" [expanded]
+    - button "dropdown trigger" [expanded]
+    - listbox "Option List":
+      - option "Active"
+      - option "Inactive"
+    - text: Status
+    - combobox: 07/21/2025 12:37
+    - text: Start Date
+    - combobox
+    - text: End Date
+    - textbox
+    - text: attribute-1
+    - button "Cancel"
+    - button "Save"
+- text: 2023, PeriNimble LLC
+- img
+```

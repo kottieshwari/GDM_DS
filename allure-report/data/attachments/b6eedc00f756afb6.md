@@ -1,0 +1,236 @@
+# Page snapshot
+
+```yaml
+- link "Grid Data Simulator":
+  - /url: "#/"
+- button ""
+- text: "Current Environment: GDS Omnistrate - QA"
+- button ""
+- list:
+  - listitem:
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - text:  CIS Simulator 
+        - list:
+          - listitem:
+            - link " Master Data":
+              - /url: "#/cis-simulator/master-data"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/cis-simulator/com-con-transactions"
+      - listitem:
+        - text:  HES Simulator 
+        - list:
+          - listitem:
+            - link " Reads":
+              - /url: "#/hes-simulator/reads"
+          - listitem:
+            - link " Events":
+              - /url: "#/hes-simulator/events"
+          - listitem:
+            - link " Reads Events Transactions":
+              - /url: "#/hes-simulator/reads-events-transactions"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/hes-simulator/com-con-transactions"
+          - listitem:
+            - link " Profile Management":
+              - /url: "#/hes-simulator/reads-profile-mgmt"
+      - listitem:
+        - text:  Configuration 
+        - list:
+          - listitem:
+            - link " HES Simulator Configuration":
+              - /url: "#/configuration/hes-simulator"
+          - listitem:
+            - link " CIS Simulator Configuration":
+              - /url: "#/configuration/cis-simulator"
+          - listitem:
+            - link " System Configuration":
+              - /url: "#/configuration/system"
+- tablist:
+  - tab "Premise"
+  - tab "Contract"
+  - tab "Partner"
+  - tab "Location"
+  - tab "Device" [selected]
+  - tab "Account"
+  - tab "Customer"
+  - tab "Register"
+  - tab "Relationship"
+  - tab "Bulk MD"
+- tabpanel "Device":
+  - button "New"
+  - text: 
+  - textbox "Search"
+  - table:
+    - rowgroup:
+      - row "All items unselected ID Org Type Is Active Start Date End Date":
+        - cell "All items unselected":
+          - checkbox "All items unselected"
+        - columnheader "ID":
+          - text: ID
+          - img
+        - columnheader "Org":
+          - text: Org
+          - img
+        - columnheader "Type":
+          - text: Type
+          - img
+        - columnheader "Is Active":
+          - text: Is Active
+          - img
+        - columnheader "Start Date":
+          - text: Start Date
+          - img
+        - columnheader "End Date":
+          - text: End Date
+          - img
+        - cell
+    - rowgroup:
+      - row "DEV_DE_01 US Energy Co. electric true 2025-05-01T10:31:45":
+        - cell:
+          - checkbox
+        - cell "DEV_DE_01"
+        - cell "US Energy Co."
+        - cell "electric"
+        - cell "true"
+        - cell "2025-05-01T10:31:45"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "DEV_1602 US Energy Co. electric true 2025-05-01T12:59:57":
+        - cell:
+          - checkbox
+        - cell "DEV_1602"
+        - cell "US Energy Co."
+        - cell "electric"
+        - cell "true"
+        - cell "2025-05-01T12:59:57"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "DEV265_02 US Energy Co. electric true 2025-05-01T16:01:29":
+        - cell:
+          - checkbox
+        - cell "DEV265_02"
+        - cell "US Energy Co."
+        - cell "electric"
+        - cell "true"
+        - cell "2025-05-01T16:01:29"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "DEV106_01 US Energy Co. electric true 2025-06-01T11:23:56":
+        - cell:
+          - checkbox
+        - cell "DEV106_01"
+        - cell "US Energy Co."
+        - cell "electric"
+        - cell "true"
+        - cell "2025-06-01T11:23:56"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "QAT_DEV1 TESTING electric true 2025-06-10T23:00:21":
+        - cell:
+          - checkbox
+        - cell "QAT_DEV1"
+        - cell "TESTING"
+        - cell "electric"
+        - cell "true"
+        - cell "2025-06-10T23:00:21"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "DEVTEST116_01 US Energy Co. electric true 2025-06-01T14:20:37":
+        - cell:
+          - checkbox
+        - cell "DEVTEST116_01"
+        - cell "US Energy Co."
+        - cell "electric"
+        - cell "true"
+        - cell "2025-06-01T14:20:37"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "DEVTEST116_02 US Energy Co. electric true 2025-06-01T15:51:35":
+        - cell:
+          - checkbox
+        - cell "DEVTEST116_02"
+        - cell "US Energy Co."
+        - cell "electric"
+        - cell "true"
+        - cell "2025-06-01T15:51:35"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "DEVTEST116_03 US Energy Co. electric true 2025-06-01T15:57:05":
+        - cell:
+          - checkbox
+        - cell "DEVTEST116_03"
+        - cell "US Energy Co."
+        - cell "electric"
+        - cell "true"
+        - cell "2025-06-01T15:57:05"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "DEVTEST166_01 US Energy Co. electric true 2025-06-01T11:54:40":
+        - cell:
+          - checkbox
+        - cell "DEVTEST166_01"
+        - cell "US Energy Co."
+        - cell "electric"
+        - cell "true"
+        - cell "2025-06-01T11:54:40"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+      - row "DEV166_01 US Energy Co. electric true 2025-06-01T12:35:31":
+        - cell:
+          - checkbox
+        - cell "DEV166_01"
+        - cell "US Energy Co."
+        - cell "electric"
+        - cell "true"
+        - cell "2025-06-01T12:35:31"
+        - cell
+        - cell:
+          - button
+          - button
+          - button
+  - text: Showing 1 to 10 of 139 entries
+  - button "First Page" [disabled]
+  - button "Previous Page" [disabled]
+  - button "1"
+  - button "2"
+  - button "3"
+  - button "4"
+  - button "5"
+  - button "Next Page"
+  - button "Last Page"
+- text: 2023, PeriNimble LLC
+- img
+```

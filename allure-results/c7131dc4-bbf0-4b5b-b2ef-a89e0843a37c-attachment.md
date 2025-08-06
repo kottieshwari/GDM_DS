@@ -1,0 +1,103 @@
+# Page snapshot
+
+```yaml
+- link "Grid Data Simulator":
+  - /url: "#/"
+- button ""
+- text: "Current Environment: GDS Omnistrate - QA"
+- button ""
+- list:
+  - listitem:
+    - list:
+      - listitem:
+        - link " Home":
+          - /url: "#/"
+      - listitem:
+        - text:  CIS Simulator 
+        - list:
+          - listitem:
+            - link " Master Data":
+              - /url: "#/cis-simulator/master-data"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/cis-simulator/com-con-transactions"
+      - listitem:
+        - text:  HES Simulator 
+        - list:
+          - listitem:
+            - link " Reads":
+              - /url: "#/hes-simulator/reads"
+          - listitem:
+            - link " Events":
+              - /url: "#/hes-simulator/events"
+          - listitem:
+            - link " Reads Events Transactions":
+              - /url: "#/hes-simulator/reads-events-transactions"
+          - listitem:
+            - link " Command & Control Transactions":
+              - /url: "#/hes-simulator/com-con-transactions"
+          - listitem:
+            - link " Profile Management":
+              - /url: "#/hes-simulator/reads-profile-mgmt"
+      - listitem:
+        - text:  Configuration 
+        - list:
+          - listitem:
+            - link " HES Simulator Configuration":
+              - /url: "#/configuration/hes-simulator"
+          - listitem:
+            - link " CIS Simulator Configuration":
+              - /url: "#/configuration/cis-simulator"
+          - listitem:
+            - link " System Configuration":
+              - /url: "#/configuration/system"
+- tablist:
+  - tab "Premise" [selected]
+  - tab "Contract"
+  - tab "Partner"
+  - tab "Location"
+  - tab "Device"
+  - tab "Account"
+  - tab "Customer"
+  - tab "Register"
+  - tab "Relationship"
+  - tab "Bulk MD"
+- tabpanel "Premise":
+  - button "New"
+  - text: 
+  - textbox "Search"
+  - table:
+    - rowgroup:
+      - row "All items unselected ID Org Type Is Active Start Date End Date":
+        - cell "All items unselected":
+          - checkbox "All items unselected" [disabled]
+        - columnheader "ID":
+          - text: ID
+          - img
+        - columnheader "Org":
+          - text: Org
+          - img
+        - columnheader "Type":
+          - text: Type
+          - img
+        - columnheader "Is Active":
+          - text: Is Active
+          - img
+        - columnheader "Start Date":
+          - text: Start Date
+          - img
+        - columnheader "End Date":
+          - text: End Date
+          - img
+        - cell
+    - rowgroup:
+      - row "No entities found":
+        - cell "No entities found"
+  - text: Showing 0 to 0 of 0 entries
+  - button "First Page" [disabled]
+  - button "Previous Page" [disabled]
+  - button "Next Page" [disabled]
+  - button "Last Page" [disabled]
+- text: 2023, PeriNimble LLC
+- img
+```
